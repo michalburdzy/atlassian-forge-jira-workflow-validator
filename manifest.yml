@@ -1,0 +1,11 @@
+modules:
+  jira:workflowValidator:
+    - key: forge-sample-app-example-workflow-validator
+      function: main
+      name: forge-sample-app
+      description: A Jira workflow validator example.
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/7518b678-5fdc-4504-a728-dda2d17c503d
